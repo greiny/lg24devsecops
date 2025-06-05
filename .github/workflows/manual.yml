@@ -29,7 +29,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           args: >
             -Dsonar.organization=greiny
-            -Dsonar.projectKey=greiny 
+            -Dsonar.projectKey=lg24devsecops 
             -Dsonar.sources=owm/
             -Dsonar.tests=tests/
             -Dsonar.verbose=true
